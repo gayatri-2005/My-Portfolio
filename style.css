@@ -1,0 +1,132 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cdcacd; /* Purple background color */
+  color:black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 10px 10px 10px;
+  height: 120px;
+  background-color: blue; /* Light purple */
+  display: flex;
+  font-size: 1.8rem;
+  color: beige;
+  justify-content: space-around;
+}
+
+/* Navigation menu styles */
+
+nav a {
+  color: #fff;
+  font-size: 1.4rem;
+  text-decoration: none;
+   padding: 10px 20px 20px 20px; 
+  border-radius: 20px;
+  transition: background-color 1s ease;
+}
+hr{
+  background-color: black;
+  height:1.3px;
+}
+nav a:hover {
+  background-color: white; /* Darker purple on hover */
+  color: #4b0067;
+}
+#home{
+  text-align: left;
+  font-size: 2rem;
+  margin-top: 20px;
+  height: 400px;
+}
+img{
+  margin-left: 700px;
+  margin-top: -320px;
+}
+
+/* About section styles */
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.about{
+  font-size: 1.3rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 300px;
+}
+
+/* Skills section styles */
+.skills h2{
+    font-size: 2rem;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.html{
+  height: 20px;
+  margin-top: 110px;
+  margin-left: -110px;
+}
+.skill {
+  background-color:blue; /* Light purple */
+  padding: 10px;
+  border-radius: 20px;
+  color: azure;
+  flex: 0 0 calc(50% - 10px);
+}
+
+/* Contact section styles */
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+.contact h2{
+font-size: 2rem;
+text-align: left;
+}
+.contact-item {
+ text-decoration: none;
+}
+
+/* Footer styles */
+.Projects{
+  height: 430px;
+  font-size: 1rem;
+  text-align:left;
+  line-height: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Projects h2{
+  font-size: 2.5rem;
+  text-align: left;
+}
+.ln{
+  margin-top: 30px;
+  margin-left: -900px;
+}
+.git{
+  margin-top: -105px;
+  margin-left: -700px;
+}
+.ml{
+  margin-top: -105px;
+  margin-left: -500px;
+}
+.ph{
+  margin-top: -105px;
+  margin-left: -300px;
+}
